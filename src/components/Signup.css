@@ -1,0 +1,62 @@
+.signup-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side{
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(57, 255, 171);
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signin-option{
+    margin: 0.8vw 0.5vw;
+    width: 70vw;
+    text-align: right;
+    font-size: 1.2vw;
+}
+
+.signup-card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-card h1{
+    font-size: 4vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+.signup-details form h3{
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+.signup-details input{
+    display: block;
+    margin: 0.5vw 0 0.8vw 0;
+    border-radius: 0.5vw;
+    border-style: solid;
+    width: 40vw;
+    padding: 0.8vw;
+    font-size: 0.9vw;
+}
+
+.signup-details button{
+    margin: 0.5vw 0;
+    background-color: rgb(57, 255, 171);
+    width: 100%;
+    height: 3.5vw;
+    padding: 1vw;
+    border: 0;
+    border-radius: 0.5vw;
+}
+
