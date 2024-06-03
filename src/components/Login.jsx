@@ -16,21 +16,21 @@ const Login = () => {
                 <div className="fields">
                 <form >
                     <label>
-                        <h3>Email</h3>
-                        <input type="email" placeholder="Enter email"/>
+                        <h3>Phone Number</h3>
+                        <input type="text" placeholder="Enter phone number"/>
                     </label>
                     <label>
                         <h3>Password</h3>
                         <div className="password-field">
                             <input type={showPass?"text":"password"} placeholder="Enter password"/>
-                            <button type="button" onClick={()=>{setshowPass(!showPass)}}><img style={{width: "2vw",}} src={showPass?require("./utils/hide.png"):require("./utils/visibility.png")} alt="" /></button>
+                            <button type="button" onClick={()=>{setshowPass(!showPass)}}><img src={showPass?require("./utils/hide.png"):require("./utils/visibility.png")} alt="" /></button>
                         </div>
                         <div className="options">
                         <Link to="/signup"><p>Don't have an account? Sign Up</p></Link>
                         <Link to="/forgot"><p>Forgot password ?</p></Link>
                         </div>
                     </label>
-                    <button type="submit">Login</button>
+                    <button className="login-btn" type="submit">Login</button>
                 </form>
             </div>
                 </div>

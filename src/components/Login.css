@@ -60,9 +60,9 @@
     margin: 0.5vw 0 2vw 0;
     border-radius: 0.5vw;
     border-style: solid;
-    width: 40vw;
     padding: 1vw;
     font-size: 1vw;
+    width: 40vw;
 }
 .fields button{
     margin: 0.5vw 0;
@@ -77,13 +77,18 @@
 .password-field{
     display: inline;
     position: relative;
+    height: fit-content;
+}
+
+.password-field button img{
+    width: 2vw;
 }
 
 .password-field button{
     all: unset;
     position: absolute;
-    right: 3%;
-    top: -12%;
+    right: 2%;
+    top: -10%;
     cursor: pointer;
 }
 
@@ -108,4 +113,72 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+.login-btn{
+    font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 500px) {
+    .left{
+        height: 114vh;
+    }
+
+    .heading h1{
+        font-size: 10vw;
+    }
+
+    .fields form h3{
+        font-size: 5vw;
+    }
+
+    .fields form label{
+        padding: 20vw;
+    }
+
+    .fields form input{
+        width: 90%;
+        padding: 2vw 2vw;
+        font-size: 2.5vw;
+    }
+
+    .fields button{
+        height: max-content;
+    }
+
+    .password-field button img{
+        height: auto;
+        width: 4vw;
+    }
+
+    .password-field button{
+        top: 10%;
+        right: 3%;
+    }
+
+    .options{
+        font-size: 2vw;
+    }
+
+    .login-btn{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .password-field button{
+        top: 20%;
+    }
+}
+
+@media only screen and (min-width: 855px) {
+    .password-field button{
+        top: 20%;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .password-field button{
+        top: 0%;
+    }
 }

@@ -32,7 +32,7 @@ const Signup = () => {
                             </label>
                             <label>
                                 <h3>Password</h3>
-                                <input type="text" placeholder="Enter password" required/>
+                                <input type="password" placeholder="Enter password" required/>
                             </label>
                             <button type="submit">Sign Up</button>
                         </form>

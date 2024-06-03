@@ -58,5 +58,44 @@
     padding: 1vw;
     border: 0;
     border-radius: 0.5vw;
+    font-size: 1.25vw;
 }
 
+@media only screen and (max-width: 500px) {
+    .signin-option{
+        margin: 5vw 0;
+        font-size: 2.5vw;
+    }
+    
+    .signup-card h1{
+        margin: 10vw 0;
+        font-size: 10vw;
+    }
+
+    .signup-details form h3{
+        text-align: left;
+        font-weight: 300;
+        font-size: 4vw;
+    }
+    .signup-details input{
+        display: block;
+        margin: 2vw 0 4vw 0;
+        border-radius: 0.5vw;
+        border-style: solid;
+        width: 60vw;
+        height: 5vw;
+        padding: 0.8vw;
+        font-size: 2.5vw;
+    }
+    
+    .signup-details button{
+        margin: 3vw 0;
+        background-color: rgb(57, 255, 171);
+        width: 100%;
+        height:fit-content;
+        padding: 2vw;
+        border: 0;
+        border-radius: 0.5vw;
+        font-size: 3.5vw;
+    }
+}
